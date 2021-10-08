@@ -6,7 +6,7 @@ Project fork:
 https://github.com/artudf/spring-boot-datagrid-challenge  
 Openshift URL:  
 https://spring-boot-datagrid-challenge-user2-challenge3.apps.cluster-kc2df.kc2df.sandbox790.opentlc.com  
-Infinispan Console:  (user01/User01)  
+Infinispan Console:  (user01/user01)  
 http://rhdg-external-user2-challenge3.apps.cluster-kc2df.kc2df.sandbox790.opentlc.com/console/  
 
 *Note*
