@@ -10,7 +10,7 @@ Infinispan Console:  (user01/user01)
 http://rhdg-external-user2-challenge3.apps.cluster-kc2df.kc2df.sandbox790.opentlc.com/console/  
 
 *Note*
-Created script to remote call to OCP deploy of the application
+Created script to remote call to OCP deploy of the application:  
 **weatherFetcherOCP.sh**
 
 ## Added DataGrid Cache elements and control of nulls  
