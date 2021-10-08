@@ -16,16 +16,16 @@ Created script to remote call to OCP deploy of the application
 ## Added DataGrid Cache elements and control of nulls  
    @Cacheable(value="weather",key="#location", unless="#result==null" )  
 
-## Added Spring Session Cache (Default user add in Security configuration)
-@EnableCaching
-@EnableInfinispanRemoteHttpSession
-@Configuration
-public class InfinispanConfiguration {
+## Added Spring Session Cache (Default user added in Security configuration)
+@EnableCaching  
+@EnableInfinispanRemoteHttpSession 
+@Configuration  
+public class InfinispanConfiguration {  
 
-     @Bean
-     public SpringRemoteCacheManagerFactoryBean springCache() {
-         return new SpringRemoteCacheManagerFactoryBean();
-     }
+     @Bean  
+     public SpringRemoteCacheManagerFactoryBean springCache() {  
+         return new SpringRemoteCacheManagerFactoryBean();  
+     }  
 
 ### Note:
 Deployed in OPenshift using dekorate:  
