@@ -3,11 +3,11 @@
 # DATAGRID Spring BOOT (Challenge #03)
 ##
 Project fork:  
-https://github.com/artudf/spring-boot-datagrid-challenge
+https://github.com/artudf/spring-boot-datagrid-challenge  
 Openshift URL:  
-https://spring-boot-datagrid-challenge-user2-challenge3.apps.cluster-kc2df.kc2df.sandbox790.opentlc.com
+https://spring-boot-datagrid-challenge-user2-challenge3.apps.cluster-kc2df.kc2df.sandbox790.opentlc.com  
 Infinispan Console:  (user01/User01)  
-http://rhdg-external-user2-challenge3.apps.cluster-kc2df.kc2df.sandbox790.opentlc.com/console/
+http://rhdg-external-user2-challenge3.apps.cluster-kc2df.kc2df.sandbox790.opentlc.com/console/  
 
 *Note*
 Created script to remote call to OCP deploy of the application
@@ -27,3 +27,6 @@ public class InfinispanConfiguration {
          return new SpringRemoteCacheManagerFactoryBean();
      }
 
+### Note:
+Deployed in OPenshift using dekorate:  
+*mvn clean install -Ddekorate.deploy=true*
