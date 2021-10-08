@@ -18,7 +18,7 @@ Created script to remote call to OCP deploy of the application:
 
 ## Added Spring Session Cache (Default user added in Security configuration)
 @EnableCaching  
-@EnableInfinispanRemoteHttpSession 
+@EnableInfinispanRemoteHttpSession  
 @Configuration  
 public class InfinispanConfiguration {  
 
